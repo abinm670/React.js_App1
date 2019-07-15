@@ -9,12 +9,12 @@ class AboutUs extends Component {
 
 
             <div className="box" is-centered>
-            
-            
-            
+
+
+
  <ul className="tabs is-centered">
- 
- 
+
+
  <li >
       <a>
       <NavLink
@@ -24,95 +24,83 @@ class AboutUs extends Component {
        </NavLink>
       </a>
     </li>
-    
-  
+
+
     <li >
       <a >
       <NavLink to={ {pathname:"/about"}}>
       <span class="icon has-text-info"><i class="fas fa-file-alt"></i></span>
-       <span>About Us</span>
+       <span>About Me</span>
        </NavLink >
       </a>
     </li>
-    
-    
-    
+
+
+
     </ul>
-    
-    
-            
-            
+
+
+
+
 
 <div>
-<h1 class="title is-2"> About Us </h1>
+<h1 class="title is-2">Full-Stack Business Intelligence Developer(BI)</h1>
 <figure>{/* // eslint-disable-next-line  */}
   <img src="../logos/react2018.svg" alt="p "/>
 </figure>
-  
+
       <div class="media-content is-centered">
         <p class="title is-4">Abdullah Binmahfouz</p>
         <p class="subtitle is-6"></p>
       </div>
-    
+
 
     <blockquote>
-     Computer Information Systems student at Mount Royal University, working on implement and manage distributed databases. I also have 
-      tremendous amount of experience in debugging, and running scripting using 
-      different tools such as Eclipse, Cloud9 and GitHub to work towards sustainable development and solutions.
-      Through a senior option courses, I learned to adapt to new challenges such as learning firebase, react
-      android studio, and Kanban methodology in order to improve my application. 
+     I Enjoy working on meaningful projects & helping businesses achieve their goals through technology & business process improvement is my passion.
+     Critical thinking, active listening, challenge the status quo, intellectual curiosity and lifelong learning are some of my personal goals and traits.
     </blockquote>
-      
-      <br/>
-    
-    <dl><h1 class="title is-5">Tools:</h1> 
-    <li>React Interface</li>
-    <li>Node package Manager</li>
-    <li> Axios package: External Web Services </li>
-    <li>Cloud9</li>
-    <li>GitHub</li>
-    <li>JavaScript</li>
-    <li>JSON file</li>
-    <li>Bulma CSS</li>
+<br/>
+
+    <dl><h class="title is-5">Projects:</h>
+    <li>
+   <a href="https://v2.luminpdf.com/viewer/5d2c25d8e704b30019b8e194" target="_blank" >
+
+    Big Data</a></li>
+    <li>
+<a href="https://docs.google.com/document/d/1CQK5EStpBx_3uL-4hHIz8ubqxaz1jar8knJAsDPFeSQ/edit?usp=sharing" target="_blank">
+    Mru Library Booking App
+</a>
+    </li>
+<li>Other projects can be discussed during the meeting</li>
     </dl>
-    
-    
-    
-      
     </div>
     <br/>
 
-    <dl>
-    <h1 class="title is-5">list of sources</h1>
-    <li><a href="https://code.tutsplus.com/tutorials/how-
-    to-use-map-filter-reduce-in-javascript--cms-26209">
-    How to Use Map, Filter, & Reduce in JavaScript</a></li>
-    <li><a href="https://reactjs.org/docs/portals.html#event-bubbling-through-portals">Event Bubbling Through Portals</a></li>
-    <li><a href=" https://reactjs.org/docs/conditional-rendering.html#inline-if-else-with-conditional-operator">
-    Inline If-Else with Conditional Operator</a></li>
-    <li><a href=" https://stackoverflow.com/questions/40746727/react-event-listeners-on-array-of-elements">
-    React event listeners on array of elements</a></li>
-    <li><a href="https://www.npmjs.com/package/react-data-sort">
-    npm install --save react-data-sort</a></li>
-    <li><a href="https://stackoverflow.com/questions/40833360/parseint-is-not-a-function">
-   parseInt() is not a function</a></li>
-    
-    
-   
-    
-    
-    
-    
-    
-    
-   
-    </dl>
-   
-    
-    
-    
-  
+
+
+<dl>
+<div className>
+<div class="button is-medium is-warning">
+<a href="https://v2.luminpdf.com/viewer/5d2c0c52e704b30019b8de1b" target="_blank">My Resume</a>
 </div>
+<div class="button is-medium is-primary" target="_blank">
+<a href="https://github.com/abinm670" target="_blank">
+GitHub</a></div>
+<div class="button  is-medium is-grey-lighter"><a href="https://www.linkedin.com/in/abdullah-binmahfouz-a6925588" target="_blank">Linkedin</a></div>
+</div>
+
+
+</dl>
+
+</div>
+
+
+
+
+
+
+
+
 
         );
 
